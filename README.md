@@ -128,6 +128,7 @@ Logging
     print(paste("Processing DOI:", DOI))
 
 Future Improvements
+
     Check or improve:
         How is the script handling rows with NA in the DOI field? Is it retaining all unique rows, or only one?
         Fuzzy match on the title to a Pure record where there is no DOI recorded in Pure. Perhaps use ePrints search if Pure API searching is not possible?
